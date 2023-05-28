@@ -78,3 +78,15 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.about {
+  color: #bc3cd8;
+}
+
+.work {
+  color: #d95a28;
+}
+
+.contact {
+  color: #70d83c;
+}
