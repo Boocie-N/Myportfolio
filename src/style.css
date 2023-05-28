@@ -1,9 +1,16 @@
+:root {
+  --branding-color: #010208;
+  --secondary-color: aliceblue;
+  --accent-color: linear-gradient(99.05deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+  --default-font-family: "Work Sans", sans-serif;
+}
+
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--default-font-family);
   margin: 60px auto;
   max-width: 800px;
-  background: #010208;
-  color: aliceblue;
+  background: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 h1,
@@ -26,10 +33,48 @@ h2 {
 }
 
 .hero {
-  padding: 180px 45px;
+  padding: 125px 45px 250px;
   text-align: center;
+}
+
+.projects-heading {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .project h5 {
   font-weight: 200;
+}
+
+.btn-branding {
+  background: var(--accent-color);
+  border: 1px solid #e3e4e6;
+  border-radius: 100px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  border: 1px solid #e3e4e6;
+  border-radius: 100px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 25px;
+}
+
+.btn-branding-outline:hover {
+  border: 1px solid #ca7fdb;
+  color: #ca7fdb;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
 }
