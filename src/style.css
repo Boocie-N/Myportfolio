@@ -36,6 +36,10 @@ h2 {
   padding: 125px 45px 250px;
   text-align: center;
 }
+.header-contact {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
 
 .projects-heading {
   font-size: 30px;
@@ -70,6 +74,20 @@ h2 {
   color: #ca7fdb;
 }
 
+.description {
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.cap-text {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.project-type {
+  text-transform: uppercase;
+}
+
 .footer-header {
   text-align: center;
 }
@@ -80,7 +98,7 @@ h2 {
 }
 
 .about {
-  color: #bc3cd8;
+  color: var(--secondary-color);
 }
 
 .work {
@@ -89,4 +107,40 @@ h2 {
 
 .contact {
   color: #70d83c;
+}
+
+@media (max-width: 900px) {
+  .about {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  .description {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .project-about {
+    margin-top: 0px;
+  }
+  .hero {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .hero p {
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  .project-text {
+    font-size: 16px;
+  }
+  .project-header {
+    font-size: 18px;
+  }
 }
