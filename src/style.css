@@ -117,6 +117,7 @@ h2 {
 
 .contact-header,
 .main {
+  fallback: var(--secondary-color);
   background: var(--accent-color);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
