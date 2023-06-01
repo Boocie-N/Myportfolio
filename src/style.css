@@ -97,6 +97,12 @@ h2 {
   justify-content: center;
 }
 
+.contacts {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
 .about {
   color: var(--secondary-color);
 }
@@ -105,8 +111,15 @@ h2 {
   color: #d95a28;
 }
 
-.contact {
-  color: #70d83c;
+.contact-page {
+  margin-top: 200px;
+}
+
+.contact-header,
+.main {
+  background: var(--accent-color);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 @media (max-width: 900px) {
