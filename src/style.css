@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  margin: 60px auto;
+  margin: 20px auto;
   max-width: 800px;
   background: var(--branding-color);
   color: var(--secondary-color);
@@ -72,6 +72,33 @@ h2 {
 .btn-branding-outline:hover {
   border: 1px solid #ca7fdb;
   color: #ca7fdb;
+}
+
+nav {
+  padding: 20px, 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #bc3cd8;
 }
 
 .description {
