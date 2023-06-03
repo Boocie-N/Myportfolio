@@ -33,7 +33,7 @@ h2 {
 }
 
 .hero {
-  padding: 125px 45px 250px;
+  padding: 125px 45px 20px;
   text-align: center;
 }
 .header-contact {
@@ -109,6 +109,12 @@ nav li.active a {
 .cap-text {
   text-transform: uppercase;
   text-align: left;
+}
+
+.down-arrow {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .project-type {
